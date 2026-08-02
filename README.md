@@ -72,11 +72,14 @@ my_quiz_game/
       ],
       "best_score": 80
   }
-```
+    ```
 
+---
 
 ## 7. 실행 스크린샷
 - 메인 메뉴 화면: docs/screenshots/menu.png
 - 퀴즈 풀기 및 결과: docs/screenshots/play.png
 - 퀴즈 추가 화면: docs/screenshots/add_quiz.png
 - 점수 확인 화면: docs/screenshots/score.png
+
+---
