@@ -73,7 +73,7 @@ my_quiz_game/
       "best_score": 80
   }
 ```
----
+
 
 ## 7. 실행 스크린샷
 - 메인 메뉴 화면: docs/screenshots/menu.png
