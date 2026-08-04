@@ -39,7 +39,7 @@ python main.py
 
 ## 5. 파일 구조
 ```
-my_quiz_game/ㅎ
+my_quiz_game/
 ├── .gitignore          # Git 버전 관리에서 제외할 목록
 ├── README.md           # 프로젝트 소개 및 설명 문서
 ├── main.py             # 게임 실행 로직 및 클래스(Quiz, QuizGame) 정의
