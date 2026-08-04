@@ -3,6 +3,8 @@ import os
 import sys
 
 class Quiz:
+
+    
     """개별 퀴즈 1개를 표현하는 클래스"""
     
     def __init__(self, question: str, choices: list, answer: int):

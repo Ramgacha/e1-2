@@ -49,7 +49,17 @@
                 "Tuple"
             ],
             "answer": 4
+        },
+        {
+            "question": "나의 이름은?",
+            "choices": [
+                "람",
+                "차세람",
+                "차가람",
+                "람가차"
+            ],
+            "answer": 3
         }
     ],
-    "best_score": 20
+    "best_score": 100
 }
