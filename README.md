@@ -111,7 +111,7 @@ my_quiz_game/
         }
     ],
     "best_score": 100
-}
+  }
     ```
 
 ---
