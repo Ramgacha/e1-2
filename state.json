@@ -1,64 +1,54 @@
 {
     "quizzes": [
         {
-            "question": "Python을 개발한 창시자의 이름은?",
-            "choices": [
-                "구이도 반 로섬",
-                "제임스 고슬링",
-                "리너스 토발즈",
-                "데니스 리치"
-            ],
-            "answer": 1
-        },
-        {
-            "question": "파이썬에서 리스트를 정렬할 때 사용하는 내장 메서드는?",
-            "choices": [
-                "order()",
-                "align()",
-                "sort()",
-                "arrange()"
-            ],
-            "answer": 3
-        },
-        {
-            "question": "JSON 형식에서 문자열을 감싸는 기호는?",
-            "choices": [
-                "작은따옴표('')",
-                "큰따옴표(\"\")",
-                "백틱(``)",
-                "괄호(())"
-            ],
-            "answer": 2
-        },
-        {
-            "question": "Git에서 원격 저장소의 변경사항을 로컬로 가져와 병합하는 명령어는?",
-            "choices": [
-                "git fetch",
-                "git push",
-                "git clone",
-                "git pull"
-            ],
-            "answer": 4
-        },
-        {
-            "question": "다음 중 파이썬의 불변(Immutable) 데이터 타입은?",
-            "choices": [
-                "List",
-                "Dictionary",
-                "Set",
-                "Tuple"
-            ],
-            "answer": 4
-        },
-        {
             "question": "나의 이름은?",
             "choices": [
-                "람",
+                "차우람",
                 "차세람",
                 "차가람",
                 "람가차"
             ],
             "answer": 3
+        },
+        {
+            "question": "나의 롤 최고 티어는?",
+            "choices": [
+                "다이아몬드",
+                "마스터",
+                "그랜드마스터",
+                "챌린저"
+            ],
+            "answer": 4
+        },
+        {
+            "question": "내가 밴드부 정기공연에서 맡은 적이 없는 세션은?",
+            "choices": [
+                "기타",
+                "베이스",
+                "드럼",
+                "건반"
+            ],
+            "answer": 3
+        },
+        {
+            "question": "내가 좋아하는 아티스트는?",
+            "choices": [
+                "한로로",
+                "유다빈밴드",
+                "케로로밴드",
+                "The Weeknd"
+            ],
+            "answer": 4
+        },
+        {
+            "question": "2-handled torus의 second homology group은?",
+            "choices": [
+                "\u001b[1mZ\u001b[0m",
+                "\u001b[1mZ\u001b[0m²",
+                "\u001b[1mZ\u001b[0m³",
+                "\u001b[1mZ\u001b[0m⁴"
+            ],
+            "answer": 1
         }
     ],
     "best_score": 100
