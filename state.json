@@ -8,7 +8,8 @@
                 "차가람",
                 "람가차"
             ],
-            "answer": 3
+            "answer": 3,
+            "hint": "이름에 '가'가 들어갑니다."
         },
         {
             "question": "나의 롤 최고 티어는?",
@@ -18,7 +19,8 @@
                 "그랜드마스터",
                 "챌린저"
             ],
-            "answer": 4
+            "answer": 4,
+            "hint": "가장 높은 티어입니다."
         },
         {
             "question": "내가 밴드부 정기공연에서 맡은 적이 없는 세션은?",
@@ -28,7 +30,8 @@
                 "드럼",
                 "건반"
             ],
-            "answer": 3
+            "answer": 3,
+            "hint": "비트를 담당하는 타악기입니다."
         },
         {
             "question": "내가 좋아하는 아티스트는?",
@@ -38,7 +41,8 @@
                 "케로로밴드",
                 "The Weeknd"
             ],
-            "answer": 4
+            "answer": 4,
+            "hint": "Blinding Lights!"
         },
         {
             "question": "2-handled torus의 second homology group은?",
@@ -48,8 +52,9 @@
                 "\u001b[1mZ\u001b[0m³",
                 "\u001b[1mZ\u001b[0m⁴"
             ],
-            "answer": 1
+            "answer": 1,
+            "hint": "정수군 1개로 표현됩니다."
         }
     ],
-    "best_score": 100
+    "best_score": 50
 }
