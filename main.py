@@ -6,7 +6,7 @@ from datetime import datetime
 
 class Quiz:
     """개별 퀴즈 1개를 표현하는 클래스"""
-    #  [힌트 추가 1] 기본 매개변수로 hint 추가 (기존 코드와 호환 유지)
+    
     def __init__(self, question: str, choices: list, answer: int, hint: str = "힌트가 없습니다."):
         self.question = question
         self.choices = choices
@@ -18,7 +18,7 @@ class Quiz:
             "question": self.question,
             "choices": self.choices,
             "answer": self.answer,
-            "hint": self.hint #  [힌트 추가 2] 저장할 데이터에 포함
+            "hint": self.hint 
         }
 
     @classmethod
@@ -27,8 +27,7 @@ class Quiz:
             question=data["question"],
             choices=data["choices"],
             answer=data["answer"],
-            #  기존 state.json 파일에 hint가 없어도 에러가 나지 않도록 get() 사용
-            hint=data.get("hint", "힌트가 없습니다.")
+            hint=data.get("hint", "힌트가 없습니다.") # 기존 state.json 파일에 hint가 없어도 에러가 나지 않도록 get() 사용
         )
 
     def print_quiz(self, index: str):
