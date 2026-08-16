@@ -279,3 +279,5 @@ if __name__ == "__main__":
         print("\n\n 비정상 입력이 감지되어 프로그램을 안전하게 종료합니다.")
         game.save_data()
         sys.exit(0)
+
+        # ...
