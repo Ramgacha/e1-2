@@ -80,8 +80,9 @@ class QuizGame:
     def save_data(self):
         try:
             data = {
-                "quizzes": [q.to_dict() for q in self.quizzes],
-                "best_score": self.best_score
+                "best_score": self.best_score,
+                "quizzes": [q.to_dict() for q in self.quizzes]
+                
             }
             with open(self.state_file, "w", encoding="utf-8") as f:
                 json.dump(data, f, ensure_ascii=False, indent=4)
