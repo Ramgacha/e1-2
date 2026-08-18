@@ -66,9 +66,10 @@ class QuizGame:
 
         try:
             with open(self.state_file, "r", encoding="utf-8") as f:
+                self.best_score = data.get("best_score", 0)
                 data = json.load(f)
                 self.quizzes = [Quiz.from_dict(q) for q in data.get("quizzes", [])]
-                self.best_score = data.get("best_score", 0)
+
                 if not self.quizzes:
                     self.quizzes = self.get_default_quizzes()
                 print(f" 저장된 데이터를 불러왔습니다. (퀴즈 {len(self.quizzes)}개, 최고점수 {self.best_score}점)")
@@ -80,8 +81,9 @@ class QuizGame:
     def save_data(self):
         try:
             data = {
-                "quizzes": [q.to_dict() for q in self.quizzes],
-                "best_score": self.best_score
+                "best_score": self.best_score,
+                "quizzes": [q.to_dict() for q in self.quizzes]
+                
             }
             with open(self.state_file, "w", encoding="utf-8") as f:
                 json.dump(data, f, ensure_ascii=False, indent=4)
@@ -280,4 +282,3 @@ if __name__ == "__main__":
         game.save_data()
         sys.exit(0)
 
-        
